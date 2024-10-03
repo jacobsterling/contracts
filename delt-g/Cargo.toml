@@ -1,0 +1,13 @@
+[package]
+name = "delt-g"
+version = "0.1.0"
+edition = "2021"
+authors = ["Delt <kciuq@protonmail.com>"]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "4.1.1"
+serde = "1.0"
+serde_json = { version = "1.0" }
